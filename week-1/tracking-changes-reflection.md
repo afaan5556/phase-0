@@ -14,7 +14,7 @@ It also follows a structure that includes a summary line like a subject line of 
 
 # What does the HEAD^ argument mean?
 
-HEAD is the term used for the current position of a workflow (i.e. active branch and position)  and the HEAD^ argument is the last commit made in that workflow
+HEAD is the term used for the current position of a workflow (i.e. active branch and position)  and the HEAD^ argument is the last commit made in that workflow. Similarly HEAD~3, HEAD~4 etc can be used to go backwards to the 3rd, 4th preceeded versions of HEAD. 
 
 # What are the three stages of a git commit and how do you move a file from one stage to the other?
 
