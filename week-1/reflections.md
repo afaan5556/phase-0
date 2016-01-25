@@ -52,6 +52,40 @@ To work on content in the repo and make contributions back to the community/your
 
 Now go try it, reach out if you have any questions!"
 
- 
-
 The videos and instructions in this section were great. The only struggle I had really was deleting non-empty directories in Windows Git-Bash, for which I was able to find some form help on.
+
+# Basics of the Web
+
+### Browser
+An application that allows you to visit and view the content of the internet
+
+### DNS
+The "phone book of the internet." A database of all ip addresses and their corresponding domain names.
+
+### Domain
+The "human friendly" address of a computer. "Facebook" is a second-level domain, and ".com" is a top-level domain
+
+### Internat
+The internet is a network of servers that are physically connected to each other
+
+### IP Address
+The uniqe identification numbers (or address) that a computer uses when on the internet
+
+### Web App
+A dynamic page on the internet that is designed to allow continuous and distributed updates and changes
+
+### Web Server
+A computer that is directly connected to the internet (as opposed to through an internet service provider (ISP))
+
+### Website
+A static page of content on the internet that is only routinely/rarely updated.
+
+### World Wide Web
+A network that sits on the internet and allows access to the internet through web-browsers
+
+
+* I had no idea about DNS and that the internet and the word wide web were in fact different things.
+* It felt great to see my web-page live. Even though we were given the html template that created it, I feel like I am one step closer to building my own websites one day!
+* The "aha" moment I had was when I saw the cute icons explaining DNS, IP addresses, and domain names. Pictures really are worth a thousand words. The "Internet in less than 5 minutes" is a video everyone should watch.
+
+
