@@ -61,6 +61,6 @@ User experience (UX) design deals with making the users interaction with a websi
 
 ### 7. Which parts of the challenge did you find tedious?
 
-
+I wouldn't call it tedious, but some of the optional and additional readings were definitely in the rabbit-hole-danger territory! I had to cut myself off early and often, and I hope I can find to come back to some of it as it was all really interesting stuff!
 
 
