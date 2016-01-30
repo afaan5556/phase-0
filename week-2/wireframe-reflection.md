@@ -15,6 +15,7 @@ The second has to do with user experience. Wireframing forces a step in the proc
 ![Blog index](Imgs/wireframe-blog-index.png)
 
 
+<!--
 # Reflections
 
 ### I Enjoyed Wireframing my Site!
@@ -28,6 +29,6 @@ I have a few highly experienced UX designer friends and I wondered to myself if 
 
 ### I Enjoyed the Challenge 
 Yes! Not only this solo challenge, but also the paired challenge in which we wireframed one of the actual blog post pages and even wrote out an html template for it.
-
+-->
 
 
