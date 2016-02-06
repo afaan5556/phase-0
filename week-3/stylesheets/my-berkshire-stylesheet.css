@@ -1,0 +1,180 @@
+
+/* Universal styles _____________________*/
+* {
+ background-color: #ffffff;
+ color: #000080;
+ font-family: Times;
+}
+
+
+a {
+	color: #800080;
+}
+
+a:visited {
+	color: #ff0000;
+}
+
+/* End Universal styles __________________*/
+
+/*Header styles __________________________*/
+
+.header {
+	border-bottom: solid gray 1px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#wb {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+
+}
+
+#super {
+ font-size: 32px;
+}
+
+#large {
+ font-size: 18px;
+ margin-bottom: 2px;
+ margin-top: 0px;
+}
+
+#small {
+ margin-top: 0px;
+ font-size: 13px;
+ margin-bottom: 2px;
+}
+
+#medium {
+ margin-top: 2px;
+ font-size: 16px;
+
+}
+
+#mini {
+ font-size: 12px;
+}
+
+/* End header styles */
+
+/* Body styles */
+
+.list {
+	padding: 14px 20px 30px 50px;
+	border-bottom: solid gray 1px;
+}
+
+.list > ul > li {
+	margin-bottom: 30px;
+}
+
+
+
+
+#col1 {
+	vertical-align: top;
+	display: inline-block;
+	width: 45%;
+	padding-right: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#col1 > li {
+	height: 35px;
+	margin-top: 0px;
+	margin-bottom: 17px;
+}
+
+#col2 {
+	vertical-align: top;
+	display: inline-block;
+	width: 45%;
+	padding-right: 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+#col2 > li {
+	height: 35px;
+	margin-top: 0px;
+	margin-bottom: 17px;
+}
+
+.note {
+	font-size: 10px;
+}
+
+/* Footer1 starts here________________*/
+
+#footer1 {
+	text-align: center;
+	border-bottom: solid gray 1px;
+	font-size: 10px;
+}
+
+#footer2 {
+	border-bottom: solid gray 1px;
+	font-size: 13px;
+}
+
+#legal {
+	font-size: 16px;
+}
+
+#copyright {
+	font-size: 9px;
+}
+
+/* REFLECTION
+
+Q) What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+A) The location of where the link tag goes to begin with. It needs to be within the <head></head> tags in the html file.
+The linking of an external file is done using a self-closing tag called <link>.
+<link> requires at a minimum 3 basic arguments. These are:
+- the "rel" which 
+- the "type" which
+- the "href" which provides the relative link to the external file from the directory position of the html file that is referencing it
+
+
+Q) What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+
+A) Positioning has been the hardest concept for me to understand so far at DBC. After 2 weeks of being fairly comfortable with the subject matter,
+this week was a struggle with CSS, and specifically with positioning. It was a dent to my confidence, but also ultimately a re-birth of confidence when
+I did stick it out and eventually start to get some semblance of a hang for it.
+The tricks I used generally included putting a border around everything so I could see where padding and margins ended and started,
+and then turning them off when I was satisfied with the positioning. I also started to look for repeated #ID
+styles that I could potentially collapse into a .class style.
+
+
+Q) What CSS did you use to modify the element style (like size, color, etc.)
+
+A) font-size, color, font-family, and font-align were the primary CSS options I used for text styling.
+These are fairly quick to grasp as you can make changes, refresh your browser, and see the impacts usually right away,
+and so a fairly tight feedback loop. This was not the case with positioning which had a much longer feedback loop.
+
+
+Q) Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+
+A) I did have to modify my html, but only to add more <Div>'s and to organize my classes and ID's a bit. In week 2 it was
+difficult to predict how deep to go and potentially how redundant I was getting with classes and ID's without having
+a view into CSS. Now that I see how the 2 work together I feel like I have a much firmer grasp on how to get
+Classes and ID's right the first time (when writing CSS)
+
+
+Q) When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+
+A) When comparing my site to the source code 2 primary differences jump out to me. The first was the use of a table
+for the unordered list of links. When my partner and I paired during week to to create the berkshire.html site,
+we considered using a table to organize the data per the actual site, but we resisted the urge and convinced ourself
+that this was a styling/css scope. At that time I didn't know if this decision meant that we would have had to come back
+and add a table or not, but now that I have seen the power of CSS I believe that the solution I ultimately landed on keeps the html
+somewhat cleaner and less verbose.
+
+The second difference I noticed was the use of styling directly in html (such as the use of "valign" and cellspacing for example)
+Again, having seen how well CSS can handle styling I feel that the best practice suggestions made as part of this challenge make a 
+lot of sense, and results in cleaner code.
+
+*/
