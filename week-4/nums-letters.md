@@ -9,16 +9,16 @@ puts writes out whatever comes immediately after it, and then sets the cursor at
 #### What is an integer and a float?
 An integer is a whole number without any decimal places. Examples of integers are:
 
-- 41
-2764
-0
-9999999941999
+* - 41
+* 2764
+* 0
+* 9999999941999
 
 A float (or a "floating point number") is a number with any number of decimal places. Examples of floats are:
 
-67.949
--99.99
-0.000041
+* 67.949
+* -99.99
+* 0.000041
 
 
 #### What is the difference between float and integer division? How would you explain the difference to someone who doesn't know anything about programming?
