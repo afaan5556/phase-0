@@ -2,9 +2,9 @@
 #### February 8, 2016
 #### Links to individual challenges:
 
-![Challene 4.2.1](defining-variables.rb)
-![Challene 4.2.2](simple-string.rb)
-![Challene 4.2.3](basic-math.rb)
+* [Challene 4.2.1](defining-variables.rb)
+* [Challene 4.2.2](simple-string.rb)
+* [Challene 4.2.3](basic-math.rb)
 
 ### Release 1: Summarize
 
