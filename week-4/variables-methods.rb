@@ -17,12 +17,25 @@ puts "Would you consider " + (number.to_i + 1).to_s + " to be your favorite numb
 
 # REFLECTION
 # How do you define a local variable?
-# A local variable is a name given to an object which points to the value of that object.
+# A local variable is a name given to an object which points to the value of that object. They are a way to store information.
 # It can be changed, and multiple variables can point to the same object value.
+# The following is an example of how to define a local variable called "name" with the stored information the string "George"
+# name = "George"
+
 
 # How do you define a method?
-# A method is a chunk of code that can be wrapped up and called to run by invoking its name
+# A method is a chunk of code that can be wrapped up and called to run by invoking its name to begin wrapping the code, and an end statement to end wrapping the code
 # A method can accept any number of arguments that can be provided when invoking it and the values given to the arguments when invoking the method get used within the method.
+# There are a few different syntax that can be used to define a method including the following (all of which define a method called hide, and take and argument called "go" and return a string called "seek")
+
+# def hide(go)
+#    return seek
+# end
+
+# def hide go
+#    return seek
+# end
+
 
 # What is the difference between a local variable and a method?
 # A local variable is like a pointer. It points to a object, and it can be changed to point to another object.
@@ -41,6 +54,6 @@ puts "Would you consider " + (number.to_i + 1).to_s + " to be your favorite numb
 
 # LINKS TO CODE FILES:
 
-# Return a Formatted Address: 
-# Defining Math Methods: 
+# Return a Formatted Address: https://github.com/afaan5556/phase-0/blob/master/week-4/address/mysolution.rb
+# Defining Math Methods: https://github.com/afaan5556/phase-0/blob/master/week-4/math/mysolution.rb
 
