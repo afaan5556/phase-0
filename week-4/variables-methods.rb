@@ -49,11 +49,12 @@ puts "Would you consider " + (number.to_i + 1).to_s + " to be your favorite numb
 
 
 # What was confusing about this material? What made sense?
-# The results of the spec code files was confusing. I am not sure if the result "0 examples, 0 failures" means that my code has passed the test.
-# In some cases I got "3 examples, 0 failures" but in other cases I got "0 examples, 0 failures", but in all cases I had "0 failures"
+# The results of the spec code files was confusing. I am not sure how many "examples" I should see when testing the code using rspec.
+# I got 3 examples for the address challenge, 2 for the defining variables challenge, and 8 for the math challenge, (all with zero failures) but am not sure if that means the code passed or not.
 
 # LINKS TO CODE FILES:
 
+# Define methods: https://github.com/afaan5556/phase-0/tree/master/week-4/define-method/mysolution.rb
 # Return a Formatted Address: https://github.com/afaan5556/phase-0/blob/master/week-4/address/mysolution.rb
 # Defining Math Methods: https://github.com/afaan5556/phase-0/blob/master/week-4/math/mysolution.rb
 
