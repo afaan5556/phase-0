@@ -14,16 +14,16 @@
 def shortest_string(list_of_words)
   # Your code goes here!
   # Refactored code
-	return list_of_words.min { |a, b| a.length <=> b.length }
-  # Initial code
+  return list_of_words.min { |a, b| a.length <=> b.length }
+end
 =begin
-  end  shortest = list_of_words[0]
-  for n in list_of_words
-  	if shortest.length > n.length
-  		shortest = n
-  	end
+  # Initial code
+  shortest = list_of_words[0]
+  list_of_words.each do |m|
+    if shortest.length > m.length
+      shortest = m
+    end
   end
   return shortest
-	
-=end
 end
+=end

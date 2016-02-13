@@ -10,19 +10,19 @@
 #
 # If +list_of_nums+ is empty the method should return nil
 
-# Your Solution Below
 def largest_integer(list_of_nums)
-  # Your code goes here!
-=begin # Initial Solution
+# Your Solution Below
+# Refactored solution
+	return list_of_nums.max
+end
+=begin
+# Initial Solution
   smallest = list_of_nums[0]
-  for n in list_of_nums
+  list_of_nums.each do |n|
   	if smallest < n
   		smallest = n
   	end
   end
   return smallest
-=end 
-# Refactored solution
-	return list_of_nums.max
-
 end
+=end 

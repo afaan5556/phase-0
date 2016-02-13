@@ -17,14 +17,14 @@ def longest_string(list_of_words)
   #Initial code
 =begin
   longest = list_of_words[0]
-  for n in list_of_words
-  	if longest.length < n.length
-  		longest = n
-  	end
+  list_of_words.each do |m|
+    if longest.length < m.length
+      longest = m
+    end
   end
   return longest
  end
 =end
   # Refactored code
-	return list_of_words.min { |a, b| b.length <=> a.length }
+  return list_of_words.min { |a, b| b.length <=> a.length }
 end

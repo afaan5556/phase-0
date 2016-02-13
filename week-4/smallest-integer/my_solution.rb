@@ -16,16 +16,17 @@ def smallest_integer(list_of_nums)
   # Your code goes here!
   # Refactored solution
   return list_of_nums.min
+end
 =begin Initial solution  
   smallest = list_of_nums[0]
-  for n in list_of_nums
+  list_of_nums.each do |n|
     if smallest > n
       smallest = n
     end
   end
   return smallest
-=end
 end
+=end
 
 
 
