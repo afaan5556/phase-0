@@ -2,7 +2,7 @@
 
 # I worked on this challenge by myself.
 
-# I spent 1 hours on this challenge.
+# I spent 2.5 hours on this challenge.
 
 # Pseudocode
 
@@ -10,7 +10,11 @@
 # Output: a string (for the greeting)
 # Steps: define the attr_methods for NameData
 # Initialize the name for NameData
-# Initialize the 
+# Initialize the NameData class within the Greetings class, passing my name to it as an argument
+# create the hello method that puts the intended message using the received name from the NameData class
+# Add driver code to see if this runs
+	# Create an instance of the Greetings class, store it in a variable
+	# Call the name method on the variable above
 
 	
 
