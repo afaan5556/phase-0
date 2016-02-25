@@ -21,7 +21,9 @@ def serving_size_calc(item_to_make, num_of_ingredients)
   end
 
   serving_size = library.values_at(item_to_make)[0]
+  p "serving_size is #{serving_size}"
   remaining_ingredients = num_of_ingredients % serving_size
+  p "remaining_ingredients is #{remaining_ingredients}"
 
   case remaining_ingredients
   when 0
