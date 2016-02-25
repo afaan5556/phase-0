@@ -12,7 +12,7 @@
     Define the method
       Create a variable and set it equal to an array with the letters b,i,n,g,o in each element
       Create a random number between 0 and the length of that array, to select one of the letters from the array at random
-      Create a variable to 
+      Create a variable to store the result of the above random number (This is the column)
       Create a random number between 1 and 100
       Return the letter and the number
     End the method
@@ -115,9 +115,9 @@ class BingoBoard
 
   def make_legal_board
     @legal_board = Array.new(5){Array.new(5,nil)}
-    5.times do |n|
-      5.times do |m|
-        @legal_board[n][m] = rand((1+(m*15))..(15+(m*15)))
+    5.times do |row|
+      5.times do |column|
+        @legal_board[row][column] = rand((1+(column*15))..(15+(column*15)))
       end
     end
     p "NEW LEGAL BINGO BOARD BELOW"
