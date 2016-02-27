@@ -48,30 +48,60 @@ end
 
 # Refactored Solution
 
+=begin
+
 class GuessingGame
 
   def initialize(answer)
-  	@answer = answer
+    @answer = answer
   end
 
   def guess(guess)
-  	@guess = guess
-  	if @guess == @answer
-  		:correct
-  	elsif @guess < @answer
-  		:low
-  	else
-  		:high
-  	end
+    @guess = guess
+    if @guess == @answer
+      return :correct
+    elsif @guess < @answer
+      return :low
+    else
+      return :high
+    end
   end
 
   def solved?
-  	@guess == @answer
+    if @guess == @answer
+      return true
+    else
+      return false
+    end
   end
 
 end
 
+=end
 
+# SOLUTION UPDATE INCORPORATING ANDREW'S FEEDBACK
+
+class GuessingGame
+
+  def initialize(answer)
+    @answer = answer
+  end
+
+  def guess(response)
+    @response = response
+    if @response == @answer
+      :correct
+    elsif @response < @answer
+      :low
+    else
+      :high
+    end
+  end
+
+  def solved?
+    @response == @answer
+  end
+end
 
 
 # Reflection
