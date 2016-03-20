@@ -15,9 +15,11 @@ Iterate over the array performing following control logic at each step
 
 # Initial Solution
 
+=begin
+
 def super_fizzbuzz(array)
-	for i in (0..array.length)
-		if array[i] % 3 == 0 || array[i] % 5 == 0
+	for i in (0..array.length-1)
+		if array[i] % 3 == 0 && array[i] % 5 == 0
 			array[i] = "FizzBuzz"
 		elsif array[i] % 3 == 0
 			array[i] = "Fizz"
@@ -28,22 +30,25 @@ def super_fizzbuzz(array)
 	return array
 end
 
+=end
+
 
 
 # Refactored Solution
 
 def super_fizzbuzz(array)
 	array.map! {|i|
-		if i % 3 == 0 || i % 5 == 0
+		if i % 3 == 0 && i % 5 == 0
 			i = "FizzBuzz"
 		elsif i % 3 == 0
 			i = "Fizz"
 		elsif i % 5 == 0
 			i = "Buzz"
+		else i = i
 		end
 		}		
-	end
 	return array
 end
+super_fizzbuzz([15, 3, 1, 5, 33, 35])
 
 # Reflection
